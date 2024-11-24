@@ -1,0 +1,6 @@
+g++ -std=c++11 -c main.cpp
+g++ -c svm.cpp
+g++ -c svm-train.c
+g++ -c svm-predict.c
+g++ -o j1 main.o svm.o svm-train.o svm-predict.o
+./j1
